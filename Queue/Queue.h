@@ -2,7 +2,7 @@
 *
 *	Queue Implementation
 *	Created By Merhat Veliev
-*	https://github.com/velieff/SDP-Samples/Queue/Queue.h
+*	https://github.com/velieff/SDP-Samples/blob/master/Queue/Queue.h
 *
 */
 
