@@ -2,7 +2,7 @@
 *
 *	Stack Implementation
 *	Created By Merhat Veliev
-*	https://github.com/velieff/SDP-Samples/Stack/Stack.h
+*	https://github.com/velieff/SDP-Samples/blob/master/Stack/Stack.h
 *
 */
 
