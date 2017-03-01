@@ -2,7 +2,7 @@
 *
 *	Binary Search Tree Implementation
 *	Created By Merhat Veliev
-*	https://github.com/velieff/SDP-Samples/BinarySearchTree/BSTree.h
+*	https://github.com/velieff/SDP-Samples/blob/master/BinarySearchTree/BSTree.h
 *
 */
 
