@@ -2,7 +2,7 @@
 *
 *	Linked List Implementation
 *	Created By Merhat Veliev
-*	https://github.com/velieff/SDP-Samples/LinkedList/LinkedList.h
+*	https://github.com/velieff/SDP-Samples/blob/master/LinkedList/LinkedList.h
 *
 */
 
