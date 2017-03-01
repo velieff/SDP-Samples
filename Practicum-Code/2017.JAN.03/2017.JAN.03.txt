@@ -1,0 +1,45 @@
+ГРАФИ
+
+G(V, E)
+V - бр. на върхове
+E - бр. на ребра
+V != 0
+E <= V*V
+
+1) Представяне чрез двумерен масив [V][V] (матрица на съседство)
+	- used memory - V*V
+	- successors(v) - O(V)
+	- isEdge(u, v) - O(1)
+	- addVertex(v) - O(V)
+	- removeVertex(v) - O(V*V)
+	- addEdge(u, v) - O(1)
+	- removeEdge(u, v) - O(1)
+
+2) Представяне чрез двумерен масив [V][E] (матрица на инцидентност)
+	- used memory - V*E
+	- successors(v) - O(V*E)
+	- isEdge(u, v) - O(E)
+	- addVertex(v) - O(E)
+	- removeVertex(v) - O(Е)
+	- addEdge(u, v) - O(V*E)
+	- removeEdge(u, v) - O(V*E)
+
+3) Представяне чрез списък от списъци (списък на съседство)
+	- used memory - E
+	- successors(v) - O(1)
+	- isEdge(u, v) - O(1) or O(V)
+	- addVertex(v) - O(1)
+	- removeVertex(v) - O(E)
+	- addEdge(u, v) - O(1)
+	- removeEdge(u, v) - O(1) or O(V)
+
+4) Представяне чрез списък от списъци (списък на инцидентност)
+	- used memory - Е
+	- successors(v) - O(Е)
+	- isEdge(u, v) - O(1) or O(Е)
+	- addVertex(v) - O(1)
+	- removeVertex(v) - O(E)
+	- addEdge(u, v) - O(1)
+	- removeEdge(u, v) - O(1) or O(Е)
+
+!!! MOST USED - 3)
