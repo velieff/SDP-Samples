@@ -21,10 +21,8 @@ int main()
 			std::cin >> n;
 		}
 		while (!t.put(n));
-		if (t.draw())
-			break;
 	}
-	while (!t.win());
+	while (!t.win() && !t.draw());
 
 	return 0;
 }
