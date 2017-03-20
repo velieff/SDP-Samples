@@ -1,7 +1,8 @@
 # Hanoi Towers
 Created By Merhat Veliev<br>2017
 ## Gameplay
-```Insert number of discs: 3
+```
+Insert number of discs: 3
          _|_                   |                    |
         __|__                  |                    |
        ___|___                 |                    |
