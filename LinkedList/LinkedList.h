@@ -153,24 +153,6 @@ public:
 		return this->size;
 	}
 
-	void sort()
-	{
-		for (int i = 0; i < this->size; i++)
-		{
-			Box* box = this->first;
-			while (box->next)
-			{
-				if (box->data > box->next->data)
-				{
-					T tmp = box->data;
-					box->data = box->next->data;
-					box->next->data = tmp;
-				}
-				box = box->next;
-			}
-		}
-	}
-
 	friend std::ostream& operator<<(std::ostream& output, const LinkedList& list)
 	{
 		Box* box = list.first;
